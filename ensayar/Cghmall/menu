@@ -14,17 +14,17 @@ exit
 }
 sfix () 
 {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/sourcesfix.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/sourcesfix.sh)
 }
 
 xswap () 
 {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/swap.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/swap.sh)
 }
 
 xclash () 
 {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/Clash/clash.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Clash/clash.sh)
 }
 mpro () {
 echo -e "5 PROCESOS SOBRE CARGADOS"
@@ -40,7 +40,7 @@ echo "Proceso Liberado Exitosamente"
 
 recuva1 () 
 {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/sd)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/sd)
 }
 
 function goinst(){
@@ -76,16 +76,16 @@ exit
 }
 ssrmenu() 
 {
-source <(curl -sL https://www.dropbox.com/s/jrb752ru0vqd4cn/trojan)
+source <(curl -sL https://www.dropbox.com/s/dd3alx42uj74pbb/trojan)
 #sed '/gnula.sh/ d' /etc/crontab > /bin/ejecutar/crontab
 }
 
 inisocks () {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/blockT.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/blockT.sh)
 }
 
 chora () {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/hora.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/hora.sh)
 }
 
 function removerbadvpn(){
@@ -330,7 +330,7 @@ echo -ne " \033[1;31m[ ! ] Services BadVPN and Netflix restart"
 kill -9 $(ps x | grep badvpn | grep -v grep | awk '{print $1'}) > /dev/null 2>&1
 killall badvpn-udpgw > /dev/null 2>&1
 unset pid_badvpn
-[[ -e /bin/badvpn-udpgw ]] && screen -dmS screen /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10 > /dev/null 2>&1 && bash <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/netflix.sh) > /dev/null && echo -e "\033[1;32m [OK]" || echo -e "\033[1;31m [FAIL]"
+[[ -e /bin/badvpn-udpgw ]] && screen -dmS screen /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10 > /dev/null 2>&1 && bash <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/netflix.sh) > /dev/null && echo -e "\033[1;32m [OK]" || echo -e "\033[1;31m [FAIL]"
 pid_badvpn=$(ps x | grep badvpn | grep -v grep | awk '{print $1}')
 ##
 echo -ne " \033[1;31m[ ! ] Services stunnel4 restart"
@@ -793,7 +793,7 @@ case $ppp in
 	11)
 	RSLL;;
 	12)
-	source <(curl -sL https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/dnsNN)
+	source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/dnsNN)
 	;;
 	13)
 	sfix
