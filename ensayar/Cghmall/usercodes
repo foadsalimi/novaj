@@ -85,7 +85,7 @@ fi
 
 recuva1 () 
 {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/sd)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/sd)
 }
 
 fun_barcgh () {
