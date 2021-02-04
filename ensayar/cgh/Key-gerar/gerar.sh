@@ -56,7 +56,7 @@ SCPT_DIR="/etc/SCRIPT"
 INSTA_ARQUIVOS="ADMVPS.zip"
 DIR="/etc/http-shell"
 LIST="lista-arq"
-P_SERVER="https://www.dropbox.com/sh/wkkyhvxjgx5bkvg/AACumHtfsfuCb_Yt-f3agnXia?dl=0"
+P_SERVER="https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/ensayar/cgh/master"
 v1=$(curl -sSL "${P_SERVER}/versaoatt")
 v2=$(cat $SCPT_DIR/versao_script)
 txt[315]="💥 ADMVPS Keygen 💥 IS UPDATED!"
@@ -228,7 +228,7 @@ echo -e "Key Generada $(printf '%(%D-%H:%M:%S)T') : \n$keyfinal\n"
 echo -e "$BARRA"
 echo -e "Instalador Oficial"
 echo -e "$BARRA"
-echo "wget -q https://www.dropbox.com/s/a4n1y93gb2x2ek5/instala.sh; chmod +x instala.sh;./instala.sh"
+echo "wget -q https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/instala.sh; chmod +x instala.sh;./instala.sh"
 echo -e "$BARRA"
 read -p "Enter para finalizar"
 }
@@ -247,7 +247,7 @@ done
 echo -e "$BARRA"
 echo -e "Instalador Oficial"
 echo -e "$BARRA"
-echo "wget -q https://www.dropbox.com/s/a4n1y93gb2x2ek5/instala.sh; chmod +x instala.sh;./instala.sh"
+echo "wget -q https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/instala.sh; chmod +x instala.sh;./instala.sh"
 echo -e "$BARRA"
 read -p "Enter para finalizar"
 }
@@ -371,7 +371,7 @@ echo "$MSGNEW" > ${SCPT_DIR}/message.txt
 echo -e "$BARRA"
 }
 act_gen () {
-source <(curl -sL https://www.dropbox.com/s/enfjfunfbbgjem0/insta.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/insta.sh)
 }
 rmv_iplib () {
 echo -e "SERVIDORES DE KEY ATIVOS!"
