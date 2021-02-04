@@ -26,7 +26,7 @@ tcpbypass_fun () {
 [[ -d $HOME/socks ]] && rm -rf $HOME/socks > /dev/null 2>&1
 cd $HOME && mkdir socks > /dev/null 2>&1
 cd socks
-patch="https://github.com/ChumoGH/ChumoGH-Script/raw/master/backsocz"
+patch="https://github.com/EVAIAhiqnhaijai/novaj/raw/Master/ensayar/cgh/backsocz"
 arq="backsocz"
 wget $patch -o /dev/null
 unzip $arq > /dev/null 2>&1
