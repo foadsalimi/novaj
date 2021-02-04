@@ -151,7 +151,7 @@ echo 'echo -e " Teclee cgh o menu para ver el listado de comandos."' >> /root/.b
 echo 'echo -e ""' >> /root/.bashrc
 echo " $(source trans -b pt:${id} "STARTUP AGREGADO EXITOSAMENTE")"
 else
-wget -o /dev/null -O- https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/toolmaster > /bin/toolmaster
+wget -o /dev/null -O- https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/toolmaster > /bin/toolmaster
 chmod +x /bin/toolmaster
 echo "clear" >> .bashrc
 echo 'DATE=$(date +"%d-%m-%y")' >> /root/.bashrc
@@ -571,7 +571,7 @@ apt-get install gawk -y > /dev/null 2>&1
 [[ -e $_tmp4 ]] && rm $_tmp4
 rm $_dr && rm $_idioma
 cd /etc/adm-lite
-wget https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/IDIOMA_VPS/$1/idioma
+wget https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/IDIOMA_VPS/$1/idioma
 unset txt
 touch $HOME/fim
 exit 0
