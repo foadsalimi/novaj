@@ -6,8 +6,8 @@ opti=$(cat /bin/ejecutar/val)
 if [ "$opti" = "0" ]; then
 echo "activado" > /bin/ejecutar/val1
 sed -i "s;0;1;g" /bin/ejecutar/val
-echo 'source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/gnula.sh)' > /bin/ejecutar/automatizar.sh
-echo 'source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/killram.sh)' > /bin/ejecutar/gnula.sh
+echo 'source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/gnula.sh)' > /bin/ejecutar/automatizar.sh
+echo 'source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/killram.sh)' > /bin/ejecutar/gnula.sh
 #echo 'source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/autobackup.sh)' >> /bin/ejecutar/gnula.sh
 chmod +x /bin/ejecutar/automatizar.sh
 cp /etc/crontab /bin/ejecutar/crontab.original
