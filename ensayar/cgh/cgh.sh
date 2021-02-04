@@ -123,7 +123,7 @@ echo 'echo -e " Teclee cgh o menu para ver el listado de comandos."' >> /root/.b
 echo 'echo -e ""' >> /root/.bashrc
 echo " $(source trans -b pt:${id} "STARTUP AGREGADO EXITOSAMENTE")"
 else
-wget -o /dev/null -O- https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/toolmaster > /bin/toolmaster
+wget -o /dev/null -O- https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/toolmaster > /bin/toolmaster
 chmod +x /bin/toolmaster
 echo "clear" >> .bashrc
 echo 'DATE=$(date +"%d-%m-%y")' >> /root/.bashrc
@@ -282,7 +282,7 @@ clear
 locale-gen en_US.UTF-8 > /dev/null 2>&1
 update-locale LANG=en_US.UTF-8 > /dev/null 2>&1
 apt-get install gawk -y > /dev/null 2>&1
-wget -O trans https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/trans -o /dev/null 2>&1
+wget -O trans https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/trans -o /dev/null 2>&1
 mv -f ./trans /bin/ && chmod 777 /bin/*
 cowsay -f ghostbusters "    ESCOJE TU IDIOMA DE PRERENCIA"| lolcat
 echo -e "${cor[1]}==================================" | lolcat
@@ -325,7 +325,7 @@ echo -e "${cor[1]} MEJORANDO PAQUETES DE DETECCIONES Y MULTILOGIN "
 echo -e "${cor[1]}⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝⚝ "
    REQUEST=$(ofus "$Key"|cut -d'/' -f2)
    [[ ! -d ${SCPinstal} ]] && mkdir ${SCPinstal}
-   src='aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0NodW1vR0gvY2h1bW9naC1nbWFpbC5jb20vbWFzdGVyL2xpc3Rh'
+   src='aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0VWQUlBaGlxbmhhaWphaS9ub3Zhai9NYXN0ZXIvZW5zYXlhci9DZ2htYWxsL2xpc3Rh'
    for arqx in $(cat $HOME/lista-arq); do
    wget -O ${SCPinstal}/${arqx} ${IP}:81/${REQUEST}/${arqx} > /dev/null 2>&1 && verificar_arq "${arqx}"  
    done
