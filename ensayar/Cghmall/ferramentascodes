@@ -48,7 +48,7 @@ fi
 
 function_1 () {
 msg -bar #echo -e "${cor[1]} ➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶➶ ${cor[0]}"
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/blockT.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/blockT.sh)
 msg -bar #echo -e "${cor[1]} ➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷ ${cor[0]}"
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
@@ -82,7 +82,7 @@ echo -e "${cor[4]} ${txt[118]}
  ${txt[119]}
  ${txt[120]}"
 echo -e "${cor[5]} ${txt[122]}"
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/netflix.sh) > /dev/null 2>&1
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/netflix.sh) > /dev/null 2>&1
 #msg -bar #echo -e "${cor[1]} ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ ${cor[0]}"
 echo -e "${cor[1]} SOLO UTILIZA EL PUERTO 7200 EN UDP PARA USAR ${cor[0]}"
 echo -e "${cor[1]}          EL SOPORTE A NETFLIX Y MAS.... ${cor[0]}"
@@ -100,7 +100,7 @@ echo -e "${cor[4]} ${txt[118]}
 echo -e "${cor[5]} ${txt[122]}"
 msg -bar #echo -e "${cor[1]} ══════════════════════════════════= ${cor[0]}"
 cd $HOME
-wget https://github.com/ChumoGH/chumogh-gmail.com/raw/master/badvpn-udpgw -o /dev/null
+wget https://github.com/EVAIAhiqnhaijai/novaj/raw/Master/ensayar/cgh/badvpn-udpgw -o /dev/null
 mv -f $HOME/badvpn-udpgw /bin/badvpn-udpgw
 chmod 777 /bin/badvpn-udpgw
 screen -dmS screen /bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 1000 --max-connections-for-client 10
@@ -892,7 +892,7 @@ echo "☆Bienvenido a ChumoGEN☆"
  fi`;
 sleep 3s
 else
-wget -o /dev/null -O- wget https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/GENERADOR_BIN.sh > /etc/adm-lite/GENERADOR_BIN.sh
+wget -o /dev/null -O- wget https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/GENERADOR_BIN.sh > /etc/adm-lite/GENERADOR_BIN.sh
 fi
 bash /etc/adm-lite/GENERADOR_BIN.sh
 ;;
@@ -908,7 +908,7 @@ echo "☆Bienvenido a ChumoGEN☆ OPCION EN DISEÑO"
  fi`;
 sleep 3s
 else
-wget -o /dev/null -O- wget https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/generadorcc.py > /etc/adm-lite/generadorcc.py
+wget -o /dev/null -O- wget https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/generadorcc.py > /etc/adm-lite/generadorcc.py
 fi
 python /etc/adm-lite/generadorcc.py
 ;;
