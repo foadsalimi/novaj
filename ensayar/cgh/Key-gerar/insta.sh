@@ -2,7 +2,7 @@
 IVAR="/etc/http-instas"
 SCPT_DIR="/etc/SCRIPT"
 [[ -d $SCPT_DIR ]] && rm -rf $SCPT_DIR
-SCPresq="aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vc2gvZjhhMXFnZmJsbnl5MTBjL0FBREVUMWZaQV8yc2xPekVMVDJzT1E5a2E/ZGw9MA=="
+SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0VWQUlBaGlxbmhhaWphaS9ub3Zhai9lbnNheWFyL0NnaG1hbGwvbWFzdGVyLw=="
 SUB_DOM='base64 -d'
 
 #CORES
@@ -205,7 +205,7 @@ IVAR2="/etc/key-gerador"
 echo "$Key" > $IVAR2
 echo $Key > /etc/http-instas
 rm $HOME/lista-arq
-echo "source <(curl -sL https://www.dropbox.com/s/9ev4are04e2n2zb/gerar.sh)" > /usr/bin/gerar && chmod +x /usr/bin/gerar
+echo "source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/gerar.sh)" > /usr/bin/gerar && chmod +x /usr/bin/gerar
 echo "cd /etc/SCRIPT && bash ./gerar.sh" > /usr/bin/keygen && chmod +x /usr/bin/keygen
 echo -e "\033[1;33m Perfecto, utilize el comando \033[1;31mkeygen o gerar \033[1;33mpara administrar sus keys y
  actualizar la base del servidor"
