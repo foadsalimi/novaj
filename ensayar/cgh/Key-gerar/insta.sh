@@ -211,7 +211,7 @@ IVAR2="/etc/key-gerador"
 echo "$Key" > $IVAR2
 echo $Key > /etc/http-instas
 rm $HOME/lista-arq
-echo "source <(curl -sSL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/gerar.sh)" > /usr/bin/gerar   #https://www.dropbox.com/s/yurbu0ieo7hn0wg/gerar.sh
+echo "source <(curl -sSL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/gerar.sh)" > /usr/bin/gerar   #https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/gerar.sh
 chmod +x /usr/bin/gerar
 echo "cd /etc/SCRIPT && bash ./gerar.sh" > /usr/bin/keygen && chmod +x /usr/bin/keygen
 echo -e "\033[1;33m Perfecto, utilize el comando \033[1;31mkeygen o gerar \033[1;33mpara administrar sus keys y
