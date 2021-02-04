@@ -56,7 +56,7 @@ SCPT_DIR="/etc/SCRIPT"
 INSTA_ARQUIVOS="ADMVPS.zip"
 DIR="/etc/http-shell"
 LIST="lista-arq"
-P_SERVER="https://www.dropbox.com/s/blxo0jifysvyrey/"
+P_SERVER="https://www.dropbox.com/s/zo0cxebfoew563j/"
 v1=$(curl -sSL "${P_SERVER}/v-new.log")
 v2=$(cat $SCPT_DIR/v-local.log)
 txt[315]="💥 ChumoGH Keygen 💥 IS UPDATED!"
@@ -228,7 +228,7 @@ echo -e "Key Generada $(printf '%(%D-%H:%M:%S)T') \n$keyfinal\n"
 echo -e "$BARRA"
 echo -e "Instalador Oficial"
 echo -e "$BARRA"
-echo "wget -q https://www.dropbox.com/s/i87udxpj1lj17sa/instala.sh; chmod +x instala.sh;./instala.sh"
+echo "wget -q https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/instala.sh; chmod +x instala.sh;./instala.sh"
 echo -e "$BARRA"
 read -p "Enter para finalizar"
 }
@@ -249,7 +249,7 @@ done
 echo -e "$BARRA"
 echo -e "Instalador Oficial"
 echo -e "$BARRA"
-echo "wget -q https://www.dropbox.com/s/i87udxpj1lj17sa/instala.sh; chmod +x instala.sh;./instala.sh"
+echo "wget -q https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/instala.sh; chmod +x instala.sh;./instala.sh"
 echo -e "$BARRA"
 read -p "Enter para finalizar"
 }
@@ -373,10 +373,10 @@ echo "$MSGNEW" > ${SCPT_DIR}/message.txt
 echo -e "$BARRA"
 }
 act_gen () {
-wget -q -O /tmp/actc.sh https://www.dropbox.com/s/2t3j16wa67v92lt/insta.sh
+wget -q -O /tmp/actc.sh https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/insta.sh
 chmod +x /tmp/actc.sh
 bash /tmp/actc.sh
-#source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/Key-gerar/insta.sh)
+#source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Key-gerar/insta.sh)
 }
 rmv_iplib () {
 echo -e "SERVIDORES DE KEY ATIVOS!"
