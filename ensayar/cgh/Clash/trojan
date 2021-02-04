@@ -75,7 +75,7 @@ EOF
 	#设置伪装站
 	rm -rf /usr/share/nginx/html/*
 	cd /usr/share/nginx/html/
-	wget https://www.dropbox.com/s/qmlxuka3c3gjw5v/web.zip >/dev/null 2>&1
+	wget https://www.dropbox.com/s/uany032uk5m2q0f/web.zip >/dev/null 2>&1
     	unzip web.zip >/dev/null 2>&1
 	sleep 5
 	#申请https证书
