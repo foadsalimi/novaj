@@ -355,7 +355,7 @@ wget http://ftp-stud.hs-esslingen.de/pub/epel/6/x86_64/epel-release-6-8.noarch.
 rpm -Uvh epel-release-6-8.noarch.rpm 1> /dev/null 2> /dev/null
 yum -y install dropbear
 mkdir /etc/sysconfig
-wget --no-check-certificate https://www.dropbox.com/s/lk9f2cbiois00bt/dropbear > /etc/sysconfig/dropbear
+wget --no-check-certificate https://www.dropbox.com/s/eg2ipolj4290o5n/dropbear > /etc/sysconfig/dropbear
 service dropbear restart 1> /dev/null 2> /dev/null
 echo -e "\033[1;31mINSTALACION FINALIZADA - PRESIONE ENTER\033[0m"
 read -p " "
@@ -1213,7 +1213,7 @@ read -p " [S/N]: " -e -i n instnosquid && [[ $instnosquid = @(s|S|y|Y) ]] && ins
 }
 
 fun_shadowsocks () {
-wget -q https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/shadowsocks.sh
+wget -q https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/shadowsocks.sh
 figlet ChumoGH
 bash shadowsocks.sh
 rm shadowsocks.sh
@@ -1221,7 +1221,7 @@ rm shadowsocks.sh
 
 
 instala_clash () {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/Clash/clash.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Clash/clash.sh)
 #bash -c "$(curl -fsSL https://raw.githubusercontent.com/JeannieStudio/all_install/master/SixForOne_install.sh)"
 }
 
@@ -1270,11 +1270,11 @@ return 0
 }
 
 inisocks () {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/sockspy.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/sockspy.sh)
 }
 
 iniciarsocks () {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/sockspy.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/sockspy.sh)
 }
 
 pstop () {
@@ -1363,7 +1363,7 @@ return 0
 
 ssrmenu() 
 {
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/back/ssrrmu.sh)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/back/ssrrmu.sh)
 #source <(curl -sL https://github.com/VPS-MX/VPS-MX-8.0/raw/master/SCRIPT/C-SSR.sh)
 #sed '/gnula.sh/ d' /etc/crontab > /bin/ejecutar/crontab
 }
@@ -1386,7 +1386,7 @@ bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-quicksta
 clear
 echo -e "Î” Generando Certificados SSL"
 mkdir /etc/adm-lite/trojancert 1> /dev/null 2> /dev/null
-curl -o /usr/local/etc/trojan/config.json https://raw.githubusercontent.com/powermx/dl/master/config.json 1> /dev/null 2> /dev/null
+curl -o /usr/local/etc/trojan/config.json hhttps://raw.githubusercontent.com/EVAIAhiqnhaijai/dl/master/config.json 1> /dev/null 2> /dev/null
 openssl genrsa 2048 > /etc/adm-lite/trojancert/trojan.key
 chmod 400 /etc/adm-lite/trojancert/trojan.key
 openssl req -new -x509 -nodes -sha256 -days 365 -key /etc/adm-lite/trojancert/trojan.key -out /etc/adm-lite/trojancert/trojan.crt
@@ -1427,7 +1427,7 @@ fi
 #} || { 
 #source <(curl -sL https://git.io/trojan-install)
 #}
-#source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/Clash/trojan)
+#source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/Clash/trojan)
 #source <(curl -sL https://github.com/VPS-MX/VPS-MX-8.0/raw/master/SCRIPT/C-SSR.sh)
 #sed '/gnula.sh/ d' /etc/crontab > /bin/ejecutar/crontab
 ##
@@ -1559,7 +1559,7 @@ echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=�
 echo -ne " ESCOJE: "; read lang
 case $lang in
 1)
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/ssl)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/ssl)
 ;;
 2)
 sshports=`netstat -tunlp | grep sshd | grep 0.0.0.0: | awk '{print substr($4,9); }' > /tmp/ssh.txt && echo | cat /tmp/ssh.txt | tr '\n' ' ' > /etc/adm-lite/sshports.txt && cat /etc/adm-lite/sshports.txt`;
@@ -1748,9 +1748,9 @@ exit
 ;;
 2)
 echo "Opcion Selecionada " $v2op "Vamos a Instalar" | lolcat
-bash <(curl -sL https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/cgh-v2ray.sh)
+bash <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/cgh-v2ray.sh)
 exit
-#wget -q https://raw.githubusercontent.com/ChumoGH/chumogh-gmail.com/master/cgh-v2ray.sh
+#wget -q https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/Cghmall/cgh-v2ray.sh
 rm -f cgh-v2ray.*
 echo -e "${cor[1]} INSTALACION FINALIZADA!!!!! ${cor[0]}"
 echo -e "${cor[1]} ➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷➷ ${cor[0]}"
@@ -1898,7 +1898,7 @@ ssssrr=`ps -ef |grep -v grep | grep server.py |awk '{print $2}'`
 [[ ! -z "${ssssrr}" ]] && cc="\033[1;32m" || cc="\033[1;31m"
 user_info=$(cd /usr/local/shadowsocksr &> /dev/null  && python mujson_mgr.py -l )
 user_total=$(echo "${user_info}"|wc -l)" Cts"
-source <(curl -sL https://raw.githubusercontent.com/ChumoGH/ChumoGH-Script/master/msg-bar/msg)
+source <(curl -sL https://raw.githubusercontent.com/EVAIAhiqnhaijai/novaj/Master/ensayar/cgh/msg-bar/msg)
 msg -bar #echo -e "$barra"
 echo -e "${cor[5]} ${txt[335]}"
 msg -bar #echo -e "$barra"
